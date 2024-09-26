@@ -40,7 +40,7 @@ class Game:
         glfw.window_hint(GLFW.GLFW_OPENGL_FORWARD_COMPAT, GLFW.GLFW_TRUE)
         glfw.window_hint(GLFW.GLFW_DOUBLEBUFFER, GLFW.GLFW_FALSE)
 
-        self.window = glfw.create_window(screen_width, screen_height, 'Maze game', None, None)
+        self.window = glfw.create_window(screen_width, screen_height, 'Encontre a Kali', None, None)
         glfw.make_context_current(self.window)
         glfw.set_input_mode(self.window, GLFW.GLFW_CURSOR, GLFW.GLFW_CURSOR_HIDDEN)
 
