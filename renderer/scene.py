@@ -40,7 +40,7 @@ class Scene:
                         0.125, 0.125, 0, 1, 0,
                         0.125, -0.125, 0, 1, 1,
                         -0.125, -0.125, 0, 0, 1
-                    ], dtype=np.float32)), './renderer/gfx/kali.png', True)
+                    ], dtype=np.float32)), './renderer/gfx/star.png', True)
         ]
     
     def move_camera(self, dPos):
